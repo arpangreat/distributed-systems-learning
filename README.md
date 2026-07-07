@@ -12,3 +12,24 @@ learning distributed systems through mit 6.824 (6.5840) in youtube
   - Lab 5: Sharded KV -> Lecture 11: Distributed Transactions, Lecture 12: Spanner, Lecture 13: Chain Replication, and Lecture 14: Optimistic Concurrency Control. Those are the core
   conceptual pieces for sharding, reconfiguration, and moving data safely. schedule (https://pdos.csail.mit.edu/6.5840/schedule.html) lines 47-69
 
+  - structs, methods, slices, maps
+  - goroutines and sync.Mutex
+  - file I/O
+  - interfaces and RPC basics
+
+  The one lecture-level Go item that matters early is Lecture 2’s Go tutorial prep and, later, Lecture 5: Go patterns when the code gets more concurrent. schedule
+  (https://pdos.csail.mit.edu/6.5840/schedule.html) lines 10-11 and 23-24
+
+# Priority Order:
+
+  1. Lecture 1
+  2. Lecture 2
+  3. Lab 1
+  4. Lecture 3
+  5. Lab 2
+  6. Lectures 4, 6, 7, 8
+  7. Lab 3 and Lab 4
+  8. Lectures 11-14
+  9. Lab 5
+
+  That is the shortest path that matches the actual course structure.
